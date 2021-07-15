@@ -1,0 +1,22 @@
+{
+  "name": "project-test",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --inline --hot",
+    "dev": "webpack"
+  },
+  "author": "NMQUANG1",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
